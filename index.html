@@ -3,15 +3,18 @@
 
 <head>
   <meta charset="utf-8">
+  <meta author="Aman Jha">
   <meta name="viewport" content="width=device-width">
   <title>Portfolio</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 <body>
   <main>
     <nav class='navBar'>
-      <h1>Gaurang Agrawal Portfolio</h1>
+      <h1>Aman Jha Portfolio</h1>
       <div class='navigationMenu'>
         <a href="#aboutMe">About Me</a>
         <a href="#skills">Skills</a>
@@ -23,51 +26,54 @@
       <img class='profileImage'
         src='images/image1.png'>
       <div class='herosectionDetails' >
-        <h1>Gaurang Agrawal</h1>
+        <h1>Aman Jha</h1>
         <h3>Currently Persuing B.Tech in (Computer Science and Engineering) <br> From GLA University,Mathura</h3>
-        
-        
+
+
       </div>
     </section>
     <section class='aboutMe' id='aboutMe'>
       <h1>What I Do...</h1>
-      <p>Hello  Everyone! My name is Gaurang I completed my Intermediate From Science( Physics , Chemistry , Maths ) from Wisdom Public School , Aligarh Currently I am persuing my Bachelor of Technolgy in (Computer Science and Engineering) From GLA University (Mathura).
-      Now I am in my second year of Engineering.I am a keen learner and I want to work on new technologies and learn about Them . Currently I will learn about the web development and make a small project on a personal portfolio Website ( using HTML , CSS and Javascript).My Aim of life is to get a good skills set to get Placed in a Good MNC . My hobbies include Cycling,Walking and Exploring new things. </p>
-  
+      <p>Hi, My name is Aman I completed my Intermediate From Science( Physics , Chemistry , Maths ) from vidya devi jindal school Kosi Kalan (Mathura) Currently I am persuing my Bachelor of Technolgy in (Computer Science and Engineering) From GLA University (Mathura).
+      Now I am in my Third year of Engineering.I am a Fast learner and I love to work on new technologies and learn new concepts about Them . Currently I am learning about the web development and DS & ML with Python make a small project on a personal portfolio Website ( using HTML , CSS and Javascript).My Aim of life is to provide some service and innovation to world . My hobbies include Problem solving, Analytical thinking and Exploring new things. </p>
+
     </section>
     <section class='skillsAndProjects'>
       <div class='skills' id='skills'>
         <h1 class='cardHeading'>Skills</h1>
-        <img src='images/html-svgrepo-com (1).svg' title='HTML'>
-        <img src='images/css-svgrepo-com.svg' title='CSS'>
+        <img src="images/java-svgrepo-com.svg" title="Java">
+        <img src="images/python-svgrepo-com.svg" title="Python">
+        <img src="images/numpy-svgrepo-com.svg" title="Numpy">
         <img src='images/js-svgrepo-com.svg' title='Javascript'>
+        <img src="images/djangoproject-svgrepo-com.svg" title="Django">
         <img src='images/nodejs-svgrepo-com.svg' title='Node.Js'>
         <img src='images/react-svgrepo-com.svg' title='React'>
+        <img src='images/html-svgrepo-com (1).svg' title='HTML'>
+        <img src='images/css-svgrepo-com.svg' title='CSS'>
         <img src='images/mongodb-svgrepo-com.svg' title='MongoDB'>
-        <img src='images/firebase-svgrepo-com.svg' title='firebase'>
-        <img src='images/redux-svgrepo-com.svg' title='Redux'>
+
       </div>
          <div class='projects' id='projects'>
           <h1 class='cardHeading'>Projects</h1>
           <div class='projectContainer'>
-            <img src='images/python-svgrepo-com.svg'/>
+            <img src='images/js-svgrepo-com.svg'/>
             <div class='projectDescription'>
-              <h4>Desingning Of Hogwarts Infinity Cloak</h4>
-              <p>My first project was on Hogwart's infinity cloak which is done in pyhton programming language using the libraries numpy and computer vision.As it was my first project I will about so many new things about numpy and computer vision library in python.</p>
+              <h4>Desined a solar modal using Major knowlegde of Java script</h4>
+              <p>This Model of Solar System has Sun and 8 Planents revolving around them and thier Moons revolving around that particular Planent .On working with this project i learned about ctx , canvas , Trignometic Function and many more....</p>
             </div>
           </div>
           <div class='projectContainer'>
-            <img src='images/html-svgrepo-com (1).svg'/>
+            <img src='images/python-svgrepo-com.svg'/>
             <div class='projectDescription'>
-              <h4>Personal Portfolio Website </h4>
-              <p>My second project was to make a personal portfolio website using the HTML AND CSS and Javacript  Language in which I will learn about how to Design a website from Scratch using HTML and how 
-              to style the website using the CSS and how to create a  vibrant interactive and dynamic web content using the javascript language.</p>
+              <h4>Registration form with Backend of Django and Database connectivity of MySql </h4>
+              <p>In this project i made a Registration form and render to user this registration form also has a Java Script code which prevents or restrict user to enter invalid data in email address and password i achived it through Regular expression then fetched data from registration form in view.py and made a class model and migrate manage.py so that model db can be updated then i saved that data in MySql Database.</p>
             </div>
           </div>
         </div>
     </section>
     <section class='contactForm' id='contactForm'>
-        <h2>Let's Connect!</h2>
+        <h2>You can contact me on linkedin<span style="margin: 0 5px;color: white; background-color: aqua; display: inline-block; width: 30px;height: 30px;" class="spann"><i class="fab fa-linkedin-in" style="object-fit: contain; margin-left: auto;"></i></span></h2>
+        <form action="https://www.linkedin.com/in/aman-jha-07334a254/">
         <div class='formGroup'>
           <label for='name'>Enter Full Name</label><br/>
           <input type='text' id='name' placeholder='Full Name'/>
@@ -78,11 +84,23 @@
         </div>
         <div class='formGroup'>
           <label for='message'>Message</label><br/>
-          <textarea placeholder="Send some message!" id="message" 
+          <textarea placeholder="Send some message!" id="message"
                   name="w3review" rows="4" cols="50"></textarea>
         </div>
         <button class='submitButton' onClick= {submit()}>Connect</button>
+      </form>
       </section>
+      <footer class="bottomconnect linksimg">
+        <div class="end container-link social">
+        <div class="element-end fb"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+        <div class="element-end tw"><a href="#"><i class="fab fa-twitter"></i></a></div>
+        <div class="element-end lc"><a href="https://leetcode.com/Aman_jha_/"><img class="lcimg" src="images/leetcode.png" alt="LeetCode"></a></div>
+        <div class="element-end ln"><a href="https://www.linkedin.com/in/aman-jha-07334a254/"><i class="fab fa-linkedin-in"></i></a></div>
+        <div class="element-end gh"><a href="https://github.com/Amanjha8503/"><i class="fab fa-github"></i></a></div>
+        <div class="element-end wa"><a href="https://api.whatsapp.com/send/?phone=8941951465&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a></div>
+      </div>
+      </footer>
+      <div class="cp-right strip-black"><p>&copy; 2023 AmanJha | All Rights Reserved.</p></div>
   </main>
-</body>        
+</body>
 </html>
